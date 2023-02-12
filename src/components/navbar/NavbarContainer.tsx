@@ -14,7 +14,7 @@ const NavbarContainer = () => {
     <div className="w-screen h-[80px] flex justify-end px-10 select-none ">
       <div className="flex gap-20 items">
         {linksArr.map((el: LinksProps) => (
-          <LinksCard text={el.text} path={el.path} />
+          <LinksCard key={Math.random()} text={el.text} path={el.path} />
         ))}
       </div>
     </div>

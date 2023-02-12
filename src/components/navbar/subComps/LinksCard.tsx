@@ -7,7 +7,7 @@ const LinksCard = ({ text, path }: LinksProps) => {
   return (
     <motion.div
       whileHover={{ scale: 1.1 }}
-      whileTap={{ scale: [0.9, 1.1] }}
+      whileTap={{ scale: [1.2, 0.9, 1] }}
       className=" hover:underline decoration-sky-600 flex gap-2 items-center text-2xl cursor-pointer"
     >
       <CgCode />
