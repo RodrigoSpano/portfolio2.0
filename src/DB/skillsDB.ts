@@ -13,4 +13,5 @@ export const SkillDB: SKillsBase[] = [
   { name: "PostgreSQL", path: "/assets/tech/postgresql.png" },
   { name: "Sequelize", path: "/assets/tech/sequelize.png" },
   { name: "Jest", path: "/assets/tech/jest.png" },
+  { name: "Git", path: "/assets/tech/git.png" },
 ];

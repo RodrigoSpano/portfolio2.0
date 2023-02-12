@@ -1,5 +1,5 @@
 import { ProjectBase } from "../utilities/types";
 
-// const Projects: ProjectBase[] = [
-//   {title:}
-// ]
+const Projects: ProjectBase[] = [
+  // {title:}
+];
