@@ -4,7 +4,10 @@ import Picture from "./Picture";
 
 const HeaderContainer = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-10 pt-20">
+    <div
+      id="about"
+      className="w-full flex flex-col items-center justify-center gap-10 pt-20"
+    >
       <div className="flex gap-32 items-center">
         <MySelf />
         <Picture />

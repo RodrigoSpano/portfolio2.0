@@ -11,7 +11,7 @@ const LinksCard = ({ text, path }: LinksProps) => {
       className=" hover:underline decoration-sky-600 flex gap-2 items-center text-2xl cursor-pointer"
     >
       <CgCode />
-      <Link to={path} smooth={true} duration={400} className="font-mono">
+      <Link to={path} smooth={true} duration={500} className="font-mono">
         {text}
       </Link>
       <CgCodeSlash />
