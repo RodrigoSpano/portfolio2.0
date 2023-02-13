@@ -1,5 +1,6 @@
 import HeaderContainer from "./components/header/HeaderContainer";
 import NavbarContainer from "./components/navbar/NavbarContainer";
+import ProjectsContainer from "./components/projects/ProjectsContainer";
 import SkillsContainer from "./components/skills/SkillsContainer";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <HeaderContainer />
       </div>
       <SkillsContainer />
+      <ProjectsContainer />
     </div>
   );
 }

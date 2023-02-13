@@ -4,7 +4,7 @@ import SkillCard from "./subComps/SkillCard";
 
 const SkillsContainer = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full min-h-screen py-5 gap-10">
+    <div className="flex flex-col items-center justify-center w-full min-h-screen py-10 gap-10">
       <h3 id="skills" className="text-6xl font-bold text-zinc-800">
         My Skills
       </h3>
