@@ -5,10 +5,13 @@ import SkillCard from "./subComps/SkillCard";
 const SkillsContainer = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full min-h-screen py-10 gap-10">
-      <h3 id="skills" className="text-6xl font-bold text-zinc-800">
+      <h3
+        id="skills"
+        className="  text-2xl lg:text-4xl xl:text-6xl font-bold text-zinc-800 font-montserrat"
+      >
         My Skills
       </h3>
-      <div className="flex gap-10 max-w-[1400px] flex-wrap items-center justify-center">
+      <div className="flex gap-5 md:gap-10 max-w-[1400px] flex-wrap items-center justify-center">
         {SkillDB.map((el: SKillsBase) => (
           <SkillCard key={Math.random()} name={el.name} path={el.path} />
         ))}

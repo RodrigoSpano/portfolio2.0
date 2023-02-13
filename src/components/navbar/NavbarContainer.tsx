@@ -12,9 +12,9 @@ const NavbarContainer = () => {
   ];
 
   return (
-    <div className="relative w-screen h-[80px] flex justify-end px-10 select-none ">
+    <div className="relative w-screen h-[80px] flex flex-col-reverse md:flex-row justify-end px-10 select-none ">
       <DownloadBtn />
-      <div className="flex gap-20 items">
+      <div className="flex justify-center flex-wrap gap-5 pt-5 md:pt-0 md:gap-2 xl:gap-20 ">
         {linksArr.map((el: LinksProps) => (
           <LinksCard key={Math.random()} text={el.text} path={el.path} />
         ))}

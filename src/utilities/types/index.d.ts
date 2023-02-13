@@ -15,3 +15,9 @@ export interface ProjectBase {
   description: string;
   tech: string[];
 }
+
+export interface EducationBase {
+  title: string;
+  period: number[] | number;
+  certificate: string;
+}

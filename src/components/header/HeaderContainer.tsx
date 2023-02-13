@@ -8,7 +8,7 @@ const HeaderContainer = () => {
       id="about"
       className="w-full flex flex-col items-center justify-center gap-10 pt-20"
     >
-      <div className="flex gap-32 items-center">
+      <div className="flex gap-10 lg:gap-32 items-center">
         <MySelf />
         <Picture />
       </div>
