@@ -21,3 +21,7 @@ export interface EducationBase {
   period: number[] | number;
   certificate: string;
 }
+export interface SocialMediaBase {
+  name: string;
+  url: string;
+}

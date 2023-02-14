@@ -9,7 +9,7 @@ const EduInfo = () => {
         |CODERHOUSE ~ FullStack Developer ~ 2021-2022
       </h4>
       {Education.map((el: EducationBase) => (
-        <TextCard course={el} />
+        <TextCard key={Math.random()} course={el} />
       ))}
     </div>
   );

@@ -5,7 +5,7 @@ import { ProjectBase } from "../../utilities/types";
 
 const ProjectsContainer = () => {
   return (
-    <div className="flex flex-col gap-10 w-full min-h-screen items-center justify-center py-10">
+    <div className="flex flex-col gap-10 w-full min-h-screen items-center justify-center pt-20">
       <h3
         id="projects"
         className="font-bold text-2xl lg:text-4xl xl:text-6xl text-zinc-800 font-montserrat text-center"
