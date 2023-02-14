@@ -16,7 +16,7 @@ const SocialContainer = () => {
   return (
     <div className="flex gap-10">
       {Social.map((el: SocialMediaBase) => (
-        <SocialCard media={el} />
+        <SocialCard key={Math.random()} media={el} />
       ))}
     </div>
   );

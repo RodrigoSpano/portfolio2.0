@@ -25,3 +25,7 @@ export interface SocialMediaBase {
   name: string;
   url: string;
 }
+
+export interface LanguageProp {
+  active: string;
+}

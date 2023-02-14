@@ -1,6 +1,7 @@
 import ContactContainer from "./components/contact/ContactContainer";
 import EducationContainer from "./components/education/EducationContainer";
 import HeaderContainer from "./components/header/HeaderContainer";
+import LanguageBtn from "./components/Language/LanguageBtn";
 import NavbarContainer from "./components/navbar/NavbarContainer";
 import ProjectsContainer from "./components/projects/ProjectsContainer";
 import SkillsContainer from "./components/skills/SkillsContainer";
@@ -16,6 +17,7 @@ function App() {
       <ProjectsContainer />
       <EducationContainer />
       <ContactContainer />
+      <LanguageBtn />
     </div>
   );
 }
