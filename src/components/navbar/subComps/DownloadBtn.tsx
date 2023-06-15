@@ -9,7 +9,7 @@ const DownloadBtn = () => {
   return (
     <motion.a
       download
-      href="/assets/cv.pdf"
+      href="/assets/Rodrigo_Spano_cv.pdf"
       whileHover={{ scale: 1.1 }}
       className=" hidden md:flex gap-2 absolute left-10 top-14  md:top-5 items-center cursor-pointer font-mono   "
     >
